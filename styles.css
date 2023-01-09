@@ -1,9 +1,16 @@
 * {
     box-sizing: border-box;
 }
+
 .container {
     border: 2px solid red;
     padding: 24px 24px 0 24px;
+}
+
+.row {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -17,8 +24,18 @@
     width: 45%;
 }
 
+.tiny-box-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
 .box-small{
     height: 50px;
+}
+
+.box-tiny{
+    height: 50px;
+    width: 30%;
 }
 
 .box-large{
